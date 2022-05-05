@@ -1,0 +1,9 @@
+{
+    "users":[
+        {"name": "Fabian", "nichname": "fabian123"},
+        {"name": "Andres", "nickname": "andres23"},
+        {"name":"Roberto", "nickname": "ro12"},
+        {"name": "Sara", "nickname": "sq26"},
+        {"name": "Cluadia", "nickname": "cl123"}
+    ]
+}
