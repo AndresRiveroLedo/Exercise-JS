@@ -16,11 +16,13 @@ console.log(person.name);
 console.log(person.address.city);
 console.log(person.married);
 
+// Convert Object literal to String and parse it to JSON
+console.log(JSON.stringify(person));
+
 //Segunda Parte: Convertimos Objeto literal a string y lo parseamos a JSON. 
 fetch("../json/users.json")
     .then((data) =>{ 
-        return data.json();
-        
+        return data.json();     
     })
     .then((data1) => {
         let output = "";
